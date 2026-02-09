@@ -1,0 +1,15 @@
+[package]
+name = "ntos-v1"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
+panic-halt = "0.2"
+bootloader = "0.9.23"
+
+[profile.release]
+panic = "abort"
+lto = true
