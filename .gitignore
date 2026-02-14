@@ -1,0 +1,31 @@
+.vercel
+.env*.local
+# Termux/OS noise
+.*history
+.cache/
+.config/
+.local/
+.android/
+.dbus/
+.mozilla/
+.npm/
+.ollama/
+.ssh/
+.termux/
+.vnc/
+.vimrc
+.wget-hsts
+
+# Builds/Logs (add your projects)
+target/
+Cargo.lock  # If not committing
+orchard-*.log
+aegis-*.log
+ntos*.log
+*.pid
+wg0.conf
+private.key
+public.key
+downloads/
+backups/
+node_modules/
